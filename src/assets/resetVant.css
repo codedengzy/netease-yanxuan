@@ -1,0 +1,273 @@
+/*
+    vant框架样式重置文件
+*/
+
+.tabsClass .van-tab {
+    line-height: .5rem;
+    font-size: .35rem;
+}
+
+.goodsColumn_Wrap .van-icon__image {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.goodsColumn_Wrap .van-grid-item__text {
+    font-size: .33rem;
+}
+
+.CountDownWrap .van-count-down {
+    width: 5rem;
+    float: left;
+    margin: .2rem 0;
+}
+
+.goodsListWrap .van-icon {
+    background-color: bisque;
+    border-radius: .3rem;
+}
+
+.goodsListWrap .van-grid-item__text {
+    font-size: .4rem;
+}
+
+.goodsListWrap .van-icon__image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footerWrap .van-tabbar-item__text {
+    font-size: 0.38rem;
+    margin-top: 0.07rem;
+}
+
+.footerWrap .van-tabbar {
+    height: 0.98rem;
+}
+
+.footerWrap .van-tabbar-item__icon {
+    height: 0.53rem;
+    width: 0.53rem;
+}
+
+
+/* 分类列表 */
+
+.sidebarClass .van-sidebar {
+    width: 2.62rem;
+    height: 100%;
+    background-color: #fff;
+}
+
+.sidebarClass .van-sidebar-item__text {
+    color: #333;
+    font-size: .4rem;
+    line-height: .5rem;
+}
+
+.sidebarClass .van-sidebar-item--select::before {
+    width: 0.06rem;
+    height: .6rem;
+}
+
+.navbarClass .van-nav-bar {
+    background-color: #FAFAFA;
+}
+
+.navbarClass .van-nav-bar__content {
+    line-height: .5rem;
+    height: 1.1rem;
+}
+
+.navbarClass .van-nav-bar__arrow {
+    font-size: .4rem;
+}
+
+.navbarClass .van-nav-bar__left {
+    font-size: .4rem;
+}
+
+.navbarClass .van-nav-bar__title {
+    font-size: .5rem;
+}
+
+.navbarClass .van-nav-bar .van-icon {
+    color: #A4A4A4;
+}
+
+.goodsBuy .van-goods-action-button {
+    height: 1.2rem;
+}
+
+.goodsBuy .van-goods-action-icon {
+    font-size: .4rem;
+    min-width: 2rem;
+}
+
+.goodsBuy .van-goods-action-icon__icon {
+    font-size: .8rem;
+}
+
+.goodsBuy .van-button__text {
+    line-height: .9rem;
+    font-size: .45rem;
+}
+
+.goodsBuy .van-goods-action {
+    height: 1.3rem;
+}
+
+
+/* sku */
+
+.skuClass .van-sku-header__img-wrap {
+    width: 1.96rem;
+    height: 1.96rem;
+    margin: .2rem .2rem .2rem 0;
+}
+
+.skuClass .van-sku__goods-price {
+    margin-left: .2rem;
+}
+
+.skuClass .van-sku__price-symbol {
+    font-size: .4rem;
+}
+
+.skuClass .van-sku__price-num {
+    font-size: .5rem;
+}
+
+.skuClass .van-sku-header-item {
+    margin-top: 0.25rem;
+    color: #000;
+    font-size: .4rem;
+    line-height: .4rem;
+}
+
+.skuClass .van-sku__stock {
+    margin-right: 0.2rem;
+    color: #000;
+    font-size: .4rem;
+}
+
+.skuClass .van-sku-container {
+    font-size: .35rem;
+}
+
+.skuClass .van-cell {
+    padding: .2rem .3rem;
+    overflow: hidden;
+    color: #323233;
+    font-size: .35rem;
+    line-height: 0.35rem;
+}
+
+.skuClass .van-cell--required::before {
+    left: .1rem;
+    color: #ee0a24;
+    font-size: .35rem;
+}
+
+.skuClass .van-field__label {
+    margin-right: .2rem;
+}
+
+.skuClass .van-stepper__minus,
+.van-stepper__plus {
+    width: 0.5rem;
+    height: .5rem;
+}
+
+.skuClass .van-stepper__input {
+    width: .42rem;
+    height: 0.37rem;
+    margin: 0 .03rem;
+    font-size: 0.3rem;
+}
+
+.skuClass .van-sku-actions {
+    padding: .1rem .2rem;
+}
+
+.skuClass .van-sku-actions .van-button {
+    height: 0.98rem;
+    font-weight: 500;
+    font-size: 0.36rem;
+}
+
+.skuClass .van-sku-row__item {
+    font-size: 0.4rem;
+    line-height: .4rem;
+}
+
+.van-toast {
+    font-size: .5rem;
+    line-height: 1rem;
+}
+
+.skuClass .van-popup__close-icon {
+    font-size: .42rem;
+}
+
+
+/* 登录按钮 */
+
+.btnWrap .van-button--normal {
+    font-size: .37rem;
+}
+
+.btnWrap .van-button {
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.btnWrap .van-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.btnWrap .van-button__icon {
+    font-size: 1.4em;
+}
+
+.loginContent .van-cell {
+    padding: .16rem .53rem;
+}
+
+.loginContent .van-field__control {
+    width: 8.27rem;
+    height: 0.6rem;
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+    margin: 0.39rem 0;
+    padding-left: 0;
+}
+
+.loginContent .van-button {
+    height: 1.28rem;
+    width: 8rem;
+    font-size: 0.4rem;
+    line-height: 1.28rem;
+    border-radius: 3px;
+}
+
+
+/* dialog弹窗 */
+
+div.van-dialog {
+    width: 6rem;
+}
+
+div.van-dialog .van-dialog__content--isolated {
+    min-height: 3rem;
+}
+
+div.van-dialog .van-dialog__message {
+    font-size: .38rem;
+    line-height: .4rem;
+}
+
+div.van-dialog .van-button {
+    font-size: .4rem;
+}
